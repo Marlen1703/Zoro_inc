@@ -1,0 +1,39 @@
+.slidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  & .slider {
+    border-radius: 11px;
+    background: #242736;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 260px;
+    margin: auto;
+    height: 40px;
+    & .task-slide{
+      border-radius: 11px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      background: #0020D7;
+      
+    }
+    & .event-slide{
+      border-radius: 11px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:none;
+      border: none;
+    }
+    :active{
+      background: green;
+  }
+  }
+}

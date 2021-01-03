@@ -1,0 +1,85 @@
+.shedule {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  &-no-lesson{
+    margin-left: 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 3px dotted #CECECE;
+    margin-top: 7px ;
+  }
+  &-lesson{
+    margin: 6px 0 6px 0;
+  }
+  &-content{
+    display: flex;
+    flex-direction: row;
+  }
+  &-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #AD88FB;
+    width: 100%;
+    border-radius: 9px;
+    justify-content: space-between;
+    margin-left: 16px;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+
+    &-1{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &-caption{
+        margin-left: 9px;
+        display: flex;
+        flex-direction: column;
+
+        & span{
+          color:#EAEAEA;
+          font-size: 10px;
+        }
+      }
+    }
+
+    &-2{
+      font-size: 10px;
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      &-btn{
+        background-color: #AD88FB;
+        outline: none;
+        border: none;
+        margin-left: 22px;
+        &-span{
+          width:30px;
+          display: flex;
+          justify-content: space-between;
+        }
+        & span{
+          height: 3px;
+          width: 3px;
+          background-color: #FFFFFF;
+          border-radius: 50%;
+          display: inline-block;
+        }
+      }
+      &-btn:hover span {
+        opacity:0.5;
+        background-color: blue;
+      }
+    }
+  }
+  &-time{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}

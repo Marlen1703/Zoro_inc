@@ -1,0 +1,24 @@
+.calendar{
+  margin: 60px auto 0;
+  position: relative;
+  background-image: url('../../assets/icons/calendar_bg.png');
+  height: 180px;
+  width: 500px;
+  background-repeat: no-repeat;
+
+  &-date{
+    font-size: 15px;
+    font-weight: 400;
+
+  }
+  &-time{
+    font-size: 45px;
+    font-weight: 400;
+  }
+
+  &-block{
+    position: absolute;
+    left:35px;
+    top:89px;
+  }
+}

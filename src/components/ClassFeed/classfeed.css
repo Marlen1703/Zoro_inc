@@ -1,0 +1,119 @@
+.classfeed {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.classfeed-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 20px 0 25px 0;
+}
+.classfeed .input-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #242736;
+  border-radius: 9px;
+  padding: 15px 12px 15px 13px;
+}
+.classfeed .input-block input {
+  background: #242736;
+  border: none;
+  margin-left: 20px;
+}
+.classfeed .input-block .input-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.display-chat {
+  height: 360px;
+  overflow: auto;
+}
+
+.chat {
+  margin: 25px 25px 29px 18px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.chat-block {
+  display: flex;
+  flex-direction: row;
+}
+.chat-user-time {
+  color: #72737C;
+  font-weight: 400;
+  font-size: 12px;
+}
+.chat-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+.chat-date-value {
+  display: flex;
+  justify-content: center;
+  background-color: #272A38;
+  border-radius: 4px;
+  padding: 5px 12px 5px 12px;
+  color: #6E707A;
+  font-size: 9px;
+}
+.chat-user-1 {
+  display: flex;
+  flex-direction: row;
+}
+.chat-user-1-message-text {
+  background-color: #0E6BC7;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 3px 0 3px 0;
+}
+.chat-user-2 {
+  display: flex;
+  flex-direction: row;
+}
+.chat-user-2-message-text {
+  background-color: #232634;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 3px 0 3px 0;
+}
+
+.user-photo {
+  margin-right: 2px;
+}
+
+.line {
+  width: 110px;
+  height: 1px;
+  background-color: #272A38;
+}
+
+.display-chat::-webkit-scrollbar {
+  height: 99px;
+  width: 7px;
+}
+
+.display-chat::-webkit-scrollbar-thumb {
+  border-color: #0E6BC7;
+  background: #0E6BC7;
+  border-radius: 10px;
+}
+
+.display-chat::-webkit-scrollbar-track {
+  background: #373549;
+  border-radius: 10px;
+}
+
+.chat-user-time {
+  margin-right: 25px;
+}
+
+/*# sourceMappingURL=classfeed.css.map */

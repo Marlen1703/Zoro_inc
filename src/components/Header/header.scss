@@ -1,0 +1,54 @@
+.home_icon{
+  font-family:Lato;
+  font-size:27px;
+
+}
+.header {
+  color: white;
+  border-bottom: 1px solid rgba(143, 143, 143, 0.3);
+
+  & .row {
+    display: flex;
+    justify-content: space-between;
+
+    & .profile{
+      display: flex;
+      align-content: center;
+      padding-left: 20px;
+
+    }
+  }
+
+  .home_icon {
+    padding: 33px 0 33px 60px;
+  }
+
+  .input_container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px 42px 23px 20px;
+
+
+    & .search{
+      position: relative;
+
+    }
+
+    & .search_img{
+      position: absolute;
+      left: 5%;
+      bottom: 30%;
+
+    }
+
+    & input {
+
+      background-color: #242736;
+      padding: 14px 89px 14px 59px;
+      border-radius: 9px;
+      font-family: Lato;
+      font-size: 18px;
+    }
+  }
+}
